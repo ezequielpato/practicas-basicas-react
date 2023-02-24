@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 export const OnClickShowText = () => {
-  const [showText, setShowText] = useState(true)
+  const [showText, setShowText] = useState(false)
 
   return (
     <div className="card">

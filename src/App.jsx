@@ -1,7 +1,8 @@
 import { OnClick } from './components/OnClick'
 import { OnChange } from './components/onChange'
 import { OnClickShowText } from './components/OnClickShowText'
-import { OnClickReducer } from './components/OnClickReudcer'
+import { OnClickReducer } from './components/OnClickReducer/OnClickReducer'
+import { OnClickCounterReducer } from './components/OnClickCounterReducer/OnClickCounterReducer'
 
 import './App.css'
 
@@ -17,8 +18,12 @@ function App() {
         <OnClickShowText/>
       <h3>onClick Counter & ShowText example - useReducer</h3>
         <OnClickReducer/>
-      <div style={{padding: '5rem'}}>
-        <a href='https://www.youtube.com/watch?v=LlvBzyy-558&t=483s&ab_channel=PedroTech' target="_blank">Video Tutorial Link</a>
+      <h3>onClick Counter with reset - useReducer</h3>
+        <OnClickCounterReducer/>
+
+      <div className='links'>
+        <a href='https://www.youtube.com/watch?v=LlvBzyy-558&t=483s&ab_channel=PedroTech' target="_blank">Video Tutorial Link 1</a>
+        <a href='https://www.youtube.com/watch?v=ZdlhJ37BL_s&ab_channel=DailyTuition' target="_blank">Video Tutorial Link 2</a>
       </div>
 
     </div>

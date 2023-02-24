@@ -74,12 +74,21 @@ a:hover {
   color: #1925fc;
 }
 
-/* ################ Componente OnClick */
+.links {
+  margin-top: 4rem;
+}
+
+.links a {
+  display: block;
+}
+
 .card {
   padding: 0.5rem;
 }
 
-/* ################ Componente OnChange */
+.card span {
+  display: block;
+}
 
 p {
   margin: 0 auto;
