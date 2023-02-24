@@ -3,6 +3,7 @@ import { OnChange } from './components/onChange'
 import { OnClickShowText } from './components/OnClickShowText'
 import { OnClickReducer } from './components/OnClickReducer/OnClickReducer'
 import { OnClickCounterReducer } from './components/OnClickCounterReducer/OnClickCounterReducer'
+import { UseRef } from './components/UseRef'
 
 import './App.css'
 
@@ -20,6 +21,8 @@ function App() {
         <OnClickReducer/>
       <h3>onClick Counter with reset - useReducer</h3>
         <OnClickCounterReducer/>
+      <h3>onClick ref Input - useRef</h3>
+        <UseRef/>
 
       <div className='links'>
         <a href='https://www.youtube.com/watch?v=LlvBzyy-558&t=483s&ab_channel=PedroTech' target="_blank">Video Tutorial Link 1</a>
